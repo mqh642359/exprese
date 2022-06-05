@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.top{
+    width: 1020px;
+    height: 60px;
+    background-color: #323235;
+}
+.center{
+    width: 1020px;
+    height: 560px;
+    background-color: #434343;
+}
+.left{
+    width: 201.6px;
+    height: 560px;
+    background-color: #434343;
+    border-right:grey solid 1px;
+    
+}
+.bottom{
+    width: 1020px;
+    height: 69.3px;
+    background-color: #323235;
+}

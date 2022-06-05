@@ -1,0 +1,82 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    
+}
+.top{
+    display: flex;
+    width: 1020px;
+    height: 60px;
+    background-color: #323235;
+    position: relative;
+   
+}
+.top .logo{
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+}
+.logo span{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+   
+}
+.top a{
+    text-decoration: none;
+}
+.top .others{
+    display: flex;
+   margin-left: 40px;
+   align-items: center; 
+   line-height: 60px;
+}
+.top .others .user{
+    margin-left: 80px;
+    display: flex;
+}
+.user .touxiang{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.Name{
+    margin-top: 5px;
+}
+.name{
+    color: #AFAFAF;
+    font-size: 15px;
+}
+.top .others .usebotton{
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+.top .others .usebotton img{
+    margin-left: 15px;
+}
+.searchline{
+    display: flex;
+    height: 20px;
+    background-color: #434346;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.searchline input{
+    background-color: transparent;
+    border: 0;
+    height: 15px;
+    line-height: 15px;
+    width: 130px;
+    outline: none !important;
+    color: #fff;
+    margin-left: 5px;
+}
+
+

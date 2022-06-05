@@ -1,0 +1,174 @@
+.bottom{
+    width: 1020px;
+    height: 69.3px;
+    background-color: red;
+}
+.right-box .recm_list {
+    position: relative;
+    /* background-color: red; */
+    margin: auto;
+    width: 96%;
+    /* margin-top: 10px; */
+}
+
+.recm_list .recm_word {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+    width: 100px;
+    user-select: none;
+}
+
+.recm_list ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recm_list ul li {
+   text-align: center;
+   color: #fff;
+   font-size: 14px;
+}
+
+.recm_list ul li span{
+    display: block;
+}
+
+.recm_list ul li img{
+    width: 140px;
+    border-radius: 5px;
+}
+/* -------right-box------end */
+
+
+/* -------footer-box------begin */
+.bottom {
+    border-top: 1px #686868 solid;
+    height: 68px;
+    background-color: #343437;
+    display: flex;
+    position: relative;
+}
+
+.bottom .ft_left {
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.ft_left img {
+    width: 55px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.ft_left .songNameAndSinger {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.songNameAndSinger span.singer{
+    font-size: 10px;
+}
+
+.bottom .ft_main {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.tool_list {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+.tool_list li{
+    cursor: pointer;
+}
+
+.tool_list li {
+    color: #d4d4d4;
+    font-size: 20px;
+}
+
+.tool_list li:nth-child(3) i{
+    font-size: 30px;
+}
+
+.ft_main .progress {
+    position: relative;
+    width: 60%;
+    height: 2px;
+    background-color: grey;
+    position: relative;
+}
+
+.progress .slide {
+    position: absolute;
+    top: -1.6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ec4141;
+    z-index: 9;
+}
+.progress .fill{
+    position: absolute;
+    top: 0;
+    height: 2px;
+    background-color: #ec4141;
+}
+
+.time{
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    cursor: default;
+}
+
+.ft_main .currentTime{
+    top: -8px;
+    left: -37px;
+}
+
+.ft_main .duraTime{
+    top: -8px;
+    right: -40px;
+}
+
+.bottom .ft_right{
+    width: 250px;
+    height: 100%;
+    /* background-color: #bfa; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ft_right .jigao{
+    font-size: 14px;
+    color: red;
+    border: red 2px solid;
+    line-height: 100%;
+    padding: 2px;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.ft_right .iconfont{
+    color: #d4d4d4;
+    font-size: 20px;
+}
